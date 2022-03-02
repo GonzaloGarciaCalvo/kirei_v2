@@ -61,6 +61,10 @@ body {
 	background-color: #fff1c3;
 	justify-content: center;
 	align-items: center;
+	& a {
+		text-decoration: none;
+		color: black;
+	}
 }
 /** CAROUSEL  **/
 .carousel-inner {
@@ -242,6 +246,10 @@ body {
 	position: absolute;
 	bottom: 4.9em;
 	z-index: 2;
+	& a {
+		text-decoration: none;
+		color: black;
+	}
 }
 .btnBoxCatalogoHome {
 	width: 13.5em;
