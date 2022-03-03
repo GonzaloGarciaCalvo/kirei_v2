@@ -11,7 +11,7 @@ a :hover{
     font-weight: 600;
     font-size: 1.3em;
     padding-top: 2em;
-    margin-left: 3.8em;
+    width: 100%;
 }
 .producto{
     /* max-width: 40em; */
@@ -97,7 +97,7 @@ a :hover{
         padding-left: 4em;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
     .texto{
         padding-left: 2em;
     }
@@ -107,8 +107,35 @@ a :hover{
         padding-right: 2em;
         box-sizing: border-box;
     }
-    .titulo_producto{
+    .titulo_productoDos{
+        font-size: 1.8em;
+    }
+    /* .linea{
+        width: 20em;
+    } */
+}
+@media screen and (max-width: 576.98px) {
+    .texto{
+        padding-left: 2em;
+    }
+    .producto{
+        margin-top: 3em;
+        padding-left: 2em;
+        padding-right: 2em;
+        box-sizing: border-box;
+    }
+    .titulo_productoDos{
         font-size: 1.5em;
+        width: 85%;
+    }
+    .textoR{
+        width: 90%;
+
+    }
+    .subtitulo_productos{
+        font-size: 1.3em;
+        padding-top: 2em;
+        text-align: center;
     }
     /* .linea{
         width: 20em;
